@@ -57,7 +57,7 @@ const playGame=(userChoice)=>{
          }else{
             //user=scissor
             //rock paper
-            userWin=compChoice===rock?false:true;
+            userWin=compChoice==="rock"?false:true;
          }
          showWinner(userWin,userChoice,compChoice)
     }
